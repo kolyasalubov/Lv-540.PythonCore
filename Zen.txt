@@ -1,6 +1,6 @@
 !!!Zen of Python!!!
 
-1.Viktoriia Lutsko
+1.Beautiful is better than ugly.
 2.Explicit is better than implicit.
 3.
 4.Complex is better than complicated.
@@ -11,5 +11,5 @@
 9.Yurii Zaveruhka
 10.Errors should never pass silently.
 11. Unless explicitly silenced.
-12. Lutsko Viktoriia
+12. In the face of ambiguity, refuse the temptation to guess.
 21.Nastia Mylian
