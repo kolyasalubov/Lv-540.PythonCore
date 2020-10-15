@@ -11,4 +11,5 @@
 9.Yurii Zaveruhka
 10.Errors should never pass silently.
 11. Unless explicitly silenced.
+12. Lutsko Viktoriia
 21.Nastia Mylian
