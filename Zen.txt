@@ -1,13 +1,15 @@
 !!!Zen of Python!!!
 
-1.
-2.
+1.Viktoriia Lutsko
+2.Explicit is better than implicit.
 3.
-4.
+4.Complex is better than complicated.
 5.
 6.Roman Smetaniak
 7.
 8.
 9.Yurii Zaveruhka
-10.
+10.Errors should never pass silently.
 11. Unless explicitly silenced.
+12. Lutsko Viktoriia
+21.Nastia Mylian
