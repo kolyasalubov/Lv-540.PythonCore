@@ -9,6 +9,6 @@
 7.
 8.
 9.Yurii Zaveruhka
-10.Nastia Mylian
+10.Errors should never pass silently.
 11. Unless explicitly silenced.
-21.Now is better than never.
+21.Nastia Mylian
