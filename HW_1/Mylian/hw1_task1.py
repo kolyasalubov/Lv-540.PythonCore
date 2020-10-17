@@ -1,0 +1,7 @@
+a=int(input("enter_a: "))
+b=int(input("enter_b: "))
+print("a+b=", a+b)
+print("a-b=", a-b)
+print("a*b=", a*b)
+print("a/b=", a/b)
+print("a**b=", a**b)
