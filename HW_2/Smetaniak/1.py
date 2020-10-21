@@ -17,8 +17,12 @@ If the implementation is hard to explain, it's a bad idea.
 If the implementation is easy to explain, it may be a good idea.
 Namespaces are one honking great idea -- let's do more of those!"""
 
+
 print ("Better:",text.find ("better"))
 print ("Never:",text.find ("never"))
 print ("Is:",text.find ("is"))
+print ("Better:" ,text.find ("better"),"times.")
+print ("Never:" ,text.find ("never"),"times.")
+print ("Is:" ,text.find ("is"),"times.")
 print (text.upper())
 print (text.replace("i","&"))
