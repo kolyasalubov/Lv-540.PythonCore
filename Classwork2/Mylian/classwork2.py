@@ -28,4 +28,11 @@ while login != 'First':
     print("Your login is incorrect! Try again")  
     break
 else:
-    print("Congrats! You logged out successfully!")      
+    print("Congrats! You logged out successfully!") 
+    
+ ######### Обчислити факторіал числа
+n=int(input("Enter number: ")) 
+factorial=1 
+for i in range(1,n+1): 
+    factorial=factorial*i 
+print("Факторіал числа ",n, "=", factorial)    
