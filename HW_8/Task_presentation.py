@@ -18,9 +18,9 @@ class Rectangle(Polygon):
     def findArea(self):
         a, b = self.sides
         area = a * b
-        return (f'The area of the rectangle is {area}')
+        print (f'The area of the rectangle is {area}')
 
 first_rectangle = Rectangle()
-print(first_rectangle.inputSides())
-print (first_rectangle.dispSides())
-print (first_rectangle.findArea())
+first_rectangle.inputSides()
+first_rectangle.dispSides()
+first_rectangle.findArea()
