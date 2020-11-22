@@ -1,0 +1,5 @@
+input_1 = str(input('Enter sting : '))
+List = list(input_1.split())
+List.reverse()
+RevStr = ' '.join(List)
+print('Rersed string : ', RevStr)
