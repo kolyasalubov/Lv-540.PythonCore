@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>News</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+
+<div class="jumbotron" style="color:black">
+
+    <h1 style="color:black">
+
+        News Application
+
+        <form method="POST">
+            Search topic:<br>
+            <label> <input type="text" name="tag"><br>
+            <input type="submit" value="Submit">
+        </form>
+
+</div>
+
+
+<div class="container">
+
+    {% for new, des, image, source, url in context %}
+
+    <img src="{{image}}" alt="" >
+    <h3>News: </h3> {{new}}
+    <h4>Description: </h4> {{des}}
+    <h4>Source: </h4> {{source}}
+    <h4><a href="{{url}}">See more...</a></h4>
+
+    {% endfor %}
+
+
+</div>
+
+
+
+</body>
+</html>
