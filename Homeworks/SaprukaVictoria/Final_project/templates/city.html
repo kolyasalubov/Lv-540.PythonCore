@@ -1,0 +1,84 @@
+<html>
+    <head>
+        <title>
+            Weather project
+        </title>
+
+
+
+        <style>
+body {
+  background-image: url('https://static.independent.co.uk/s3fs-public/thumbnails/image/2018/07/25/16/nyc.jpg?width=1200');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+            .button {
+    border: 2px solid #FDF8D9;
+    display: block;
+    width: 190px;
+    height: 45px;
+    background: #FDF8D9;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+    color: #532D43;
+    font-weight: bold;
+    line-height: 40 px;
+    text-decoration: none;
+    position: absolute;
+    left:350px;
+    right:140px;
+    top:40%;
+    font-size: 18px;
+    font-family: Arial;
+}
+.button:hover{
+background-color: #C78786;
+color:#FFD1DA;
+}
+.form{
+ position: absolute;
+ left:350px;
+ top: 30%;
+ }
+ form{
+ margin: 20px auto;
+ width: 300px;
+ }
+ input {
+  width: 188%;
+  height: 40px;
+  color:#532D43;
+font-size: 14px;
+}
+input[type=text] {
+  border: 2px ;
+  border-radius: 4px ;
+  background-color: #F3B5C0;
+padding: 12px 20px;
+font-size: 14px;
+opacity: 0.5;
+}
+input[type=text]:focus {
+  border: 2px solid #CBD8F0;
+  outline: none;
+  opacity: 1;
+}
+
+        </style>
+        <script>
+            const send = (e) => {
+                const city = document.getElementById('city').value;
+                window.location.href = `http://localhost:5000/forecast/${city}`;
+            }
+        </script>
+    </head>
+    <body>
+    <h1 style = "color:#532D43;font-family: Optima; position: absolute;top:15%; right: 40px; font-size: 48px;left:350px;" > Enter your location</p></h1>
+   <div class="form">
+       <input type="text" id="city" name="city" placeholder="Enter city"><br><br>
+   </div>
+    <button class="button" id="button" onclick="send()">Send</button>
+    </body>
+</html>

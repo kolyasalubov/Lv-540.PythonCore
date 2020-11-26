@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>
+            Weather project
+        </title>
+<style>
+body {
+  background-image: url({{ background }});
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+</style>
+
+    </head>
+
+    <body>
+    <audio controls src="/static/{{song}}.mp3"> Your browser does not support the <code>audio</code> element.
+    </audio>
+     <div style=" text-align:center;
+  vertical-align:center;
+  justify-content:center;
+  align-items: center;position:absolute;top:23%;left:700px;right:400px;left:360px;width:500px;height:405px;border-radius: 35px;background-color: #BFC3D6;opacity: 0.7;"></div>
+   <div align="center;"></div>
+     <div align="justify"></div>
+    <h1 style="font-family:Verdana; position:absolute;top:24%;left:480px;color:#575F77;">Your weather </h1>
+   <div style= "font-family:Courier; color: #320927;position: absolute;top:35%;left:420px; word-spacing:20px; font-size: 30">Temperature {{temp}}°C</div>
+    <div style="font-family: Courier; color: #320927;position: absolute;top:45%;left:420px; word-spacing:20px;font-size: 30px">Pressure {{press}}</div>
+    <div style="font-family: Courier; color: #320927;position: absolute;top:55%;left:420px; word-spacing:20px;font-size: 30px">Humidity {{humid}}%</div>
+<marquee style="font-family: Italic;color: #320927;position: absolute;top:64%; left:420px;right:700px;word-spacing:20px;font-size: 24px"> {{description}}</marquee>
+
+
+
+    <!--
+   <form action="/action_page.php">
+  <label for="fname"></label><br>
+  <input type="text" id="fname" name="fname" placeholder="Enter country"><br>
+  <label for="lname"></label><br>
+  <input type="text" id="lname" name="lname" placeholder="Enter city"><br><br>
+ <a class="button" href="http://127.0.0.1:5000/city/forecast">Send</a>
+</form>
+-->
+
+    </body>
+</html>
