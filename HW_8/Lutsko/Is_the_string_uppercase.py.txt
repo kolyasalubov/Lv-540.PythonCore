@@ -1,0 +1,2 @@
+def is_uppercase(words):
+    return words == words.upper()

@@ -1,0 +1,3 @@
+def shorten_to_date(long_date):
+    first_date = long_date.split(', ')
+    return first_date[0]
